@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: white;
+  background-color: #1a1a1a;
+}
+
+.nav-container {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.nav1 {
+  /* border: 2px solid red; */
+  background-color: rgba(255, 255, 255, 0.845);
+  padding: 10px;
+}
+
+.nav1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav1 li {
+  display: inline;
+}
+
+.nav1 a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  /* background-color: #d16b2c; */
+  padding: 5px 10px;
+  position: relative;
+}
+
+/* important */
+.nav1 a::after {
+  content: "RTX";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: blue;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav1 a:hover::after {
+  transform: scaleX(1);
+}
+
+.nav1 .login-btn {
+  background-color: #0226da;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

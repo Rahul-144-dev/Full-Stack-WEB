@@ -1,0 +1,41 @@
+.nav3 {
+  background-color: #489db5;
+  padding: 10px;
+}
+
+.nav3 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav3 a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.nav3 .dropdown-content {
+  display: none;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav3 .dropdown:hover .dropdown-content {
+  display: block;
+  position: absolute;
+  background-color: #05a4dd63;
+  min-width: 100px;
+  transform: scaleX(1);
+}
+
+.nav3 .login-btn {
+  color: white;
+  border: none;
+  background-color: #137ec5ab;
+  padding: 7px 15px;
+}

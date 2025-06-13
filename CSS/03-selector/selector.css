@@ -1,0 +1,76 @@
+/* Universal Selector (All elements of the page) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ID Selector (the element with specific ID)*/
+#cg {
+  color: #ee82ee;
+  font-size: 24px;
+}
+
+/* Class Selector (any element with specific Class)*/
+.para {
+  color: blue;
+}
+
+/* Attribute Selector (all input elements with type="text" attribute)*/
+input[type="text"] {
+  border: 2px solid #ee82ee;
+}
+
+/* Type Selector (All <p> tags)*/
+p {
+  font-size: 20px;
+  margin: 5px 10px 15px 20px;
+  padding: 20px 15px 10px 5px;
+}
+
+/* Descendent Selector (all <p> inside <article>)*/
+article p {
+  font-style: italic;
+  background-color: #4d7fa6;
+  color: white;
+}
+
+/* Child Selector (All <li> that are direct child of a <ul>)*/
+ul>li {
+  background-color: rgb(255, 140, 0);
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+/* General Sibling Selector (every <p> that is sibling after an <h2>)*/
+h2~p {
+  padding: 0;
+  background-color: lightcoral;
+}
+
+/* Adjacent Sibling Selector(the first sibling selected) */
+h1+p {
+  color: red;
+}
+
+
+/* Pseudo-Class Selector () */
+a:hover {
+  margin: 10px 0px;
+  padding: 10px 0px;
+  background-color: green;
+  text-decoration: none;
+}
+
+/* Pseudo Element Selector () */
+p::first-letter {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* Grouping Selectors (All <h1>,<h2> and <h3>) */
+h1,
+h2,
+h3 {
+  background-color: rgb(79, 105, 102);
+}

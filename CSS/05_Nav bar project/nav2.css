@@ -1,0 +1,43 @@
+.nav2 {
+  /* border: 2px solid red; */
+  background-color: #137370;
+  width: 200px;
+  padding: 20px;
+}
+
+.nav2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav2 li {
+  margin-bottom: 13px;
+}
+
+.nav2 a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px;
+  width: 100%;
+}
+
+.nav2 a:hover {
+  background-color: #149d96;
+}
+
+.nav2 .login-btn {
+  background-color: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.nav2 .login-btn:hover {
+  background-color: #1b9410;
+  /* border: 1px solid; */
+}

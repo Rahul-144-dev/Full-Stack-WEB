@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: 'Roboto Mono', monospace;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background: linear-gradient(135deg, rgb(195, 0, 255), rgb(68, 0, 255));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.content {
+  text-align: center;
+  background-color: rgba(250, 250, 250, 0.518);
+  /* Lower alpha for more blur effect */
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  max-width: 400px;
+}
+
+.logo {
+  width: 270px;
+  object-fit: contain;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #373737;
+  margin-bottom: 20px;
+}
+
+.notify-form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="email"] {
+  margin-bottom: 1rem;
+  padding: 12px;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+}
+
+button[type='submit'] {
+  padding: 10px;
+  background-color: #8a2be2;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 255, 247, 0.447);
+  transition: background-color 0.5s ease-in-out;
+}
+
+button:hover {
+  background-color: #4d0d89;
+}
+
+svg {
+  position: absolute;
+}
