@@ -1,0 +1,45 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  border: 2px solid black;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.pastle-1 {
+  background-color: #ffb3ba;
+}
+
+.pastle-2 {
+  background-color: #baffc9;
+}
+
+.pastle-3 {
+  background-color: #bae1ff;
+}
+
+.pastle-4 {
+  background-color: #ffffba;
+}
+
+.pastle-5 {
+  background-color: #ffdfba;
+}
